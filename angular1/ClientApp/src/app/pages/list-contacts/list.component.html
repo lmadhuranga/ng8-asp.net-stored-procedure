@@ -1,0 +1,23 @@
+<div id="contact-list" class="contacts-list">
+  <p *ngIf="!contacts"><em>Loading...</em></p>
+
+  <table class='table' *ngIf="contacts">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Action</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let contact of contacts" attr.id="contact{{contact.id}}">
+        <td>{{contact.name}}</td>
+        <td>
+          <a class="viewBtn" id="contactEditBtn{{contact.id}}" [routerLink]="[ '/view', contact.id ]"> <i class="fas fa-eye"></i> </a> |
+          <a class="editBtn" id="contactEditBtn{{contact.id}}" [routerLink]="[ '/edit', contact.id ]"> <i class="fas fa-edit"></i> </a> |
+          <a class="removeBtn" id="contactRmBtn{{contact.id}}" href="javascript:void(0)" (click)="remove(contact)"><i class="fas fa-trash-alt"></i></a>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
