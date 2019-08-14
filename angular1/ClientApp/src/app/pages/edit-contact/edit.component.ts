@@ -25,7 +25,7 @@ export class EditContactComponent implements OnInit {
       this.contact = {
         name: '',
         email: '',
-        downloads: 0
+        mobile: ''
       };
       
       this.route.params.subscribe((params)=>{

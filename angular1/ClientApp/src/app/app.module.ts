@@ -11,6 +11,8 @@ import { ViewContactComponent } from './pages/view-contact/view.component'
 import { EditContactComponent } from './pages/edit-contact/edit.component'
 import { AddContactComponent } from './pages/add-contact/add-contact.component'
 
+import { FetchDataComponent } from './fetch-data/fetch-data.component';
+
 import { ContactsService } from './services/contacts.service';
 import { ContactNameComponent } from './components/contact-name/contact-name.component'
 
@@ -23,7 +25,9 @@ import { ContactNameComponent } from './components/contact-name/contact-name.com
     EditContactComponent,
     ViewContactComponent,
     ContactNameComponent,
-    AddContactComponent
+    AddContactComponent,
+
+    FetchDataComponent
   ],
   imports: [
     BrowserModule.withServerTransition({ appId: 'ng-cli-universal' }),

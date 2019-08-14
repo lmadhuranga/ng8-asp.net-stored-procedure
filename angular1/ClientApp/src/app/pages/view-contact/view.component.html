@@ -5,7 +5,7 @@
         <ul>
           <li>Name : <app-contact-name [contact]="contact"></app-contact-name></li>
           <li>Email:<a href="mailto:{{contact.email}}">{{contact.email}}</a></li> 
-          <li>Phone: {{contact.phone}}</li>
+          <li>Mobile: {{contact.mobile}}</li>
         </ul>
         <a class="btn btn-primary editBtn"  [routerLink]="[ '/edit/', contact.id ]">Edit <i class="fas fa-edit"></i> </a>
     </div>

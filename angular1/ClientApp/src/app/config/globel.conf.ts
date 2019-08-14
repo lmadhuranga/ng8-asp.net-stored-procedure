@@ -3,7 +3,7 @@ export const appConfig  = {
         name : "Mad World",
         host:{
             protocol:'http',
-            url: "http://localhost:3000"
+          url: "https://localhost:5001/api"
         }
     },
     app:{

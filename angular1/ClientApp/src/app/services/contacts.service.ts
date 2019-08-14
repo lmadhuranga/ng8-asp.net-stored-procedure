@@ -6,6 +6,6 @@ import { MasterService } from './master.service';
 export class ContactsService extends MasterService { 
     
     constructor(http:HttpClient) { 
-        super(http, "Contacts");
+        super(http, "Contact");
     } 
 }

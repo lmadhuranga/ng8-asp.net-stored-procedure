@@ -4,9 +4,9 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 
-namespace angular1.Controllers
+namespace angular1.Controllerss
 {
-    [Route("api/[controller]")]
+    //[Route("api/[controllersss]")]
     public class SampleDataController : Controller
     {
         private static string[] Summaries = new[]

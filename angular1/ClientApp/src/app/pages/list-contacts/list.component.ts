@@ -36,21 +36,14 @@ export class ContactsComponent implements OnInit {
   }
   
   details(contact){
-    if(!contact.details) {
-      this.countDownloads(contact);
+    if(!contact.details) { 
       contact.details = true;
     }      
     else {
       contact.details = !contact.details;
     }    
   }
-
-  countDownloads(contact:Contact){
-    contact.downloads = contact.downloads+1;
-    this.contactService.update(contact).subscribe((res)=>{
-      console.log('Update Successfull');
-    })
-  }
+ 
   
   /* To copy Text from Textbox */
   // copyInputMessage(inputElement){
