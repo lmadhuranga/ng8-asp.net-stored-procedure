@@ -1,0 +1,14 @@
+<div class="row">
+  <div class="col-6 edit-contact">
+    <div *ngIf="contact.name!=''; else elseBlock" >
+        <h3>{{contact.name}}</h3>
+        <ul>
+          <li>Name : <app-contact-name [contact]="contact"></app-contact-name></li>
+          <li>Email:<a href="mailto:{{contact.email}}">{{contact.email}}</a></li> 
+          <li>Mobile: {{contact.mobile}}</li>
+        </ul>
+        <a class="btn btn-primary editBtn"  [routerLink]="[ '/edit/', contact.id ]">Edit <i class="fas fa-edit"></i> </a>
+    </div>
+    <ng-template #elseBlock>No details back to Home page. </ng-template> 
+  </div> 
+</div>

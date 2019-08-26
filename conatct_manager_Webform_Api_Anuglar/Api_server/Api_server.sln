@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29123.88
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "C4PApi", "C4PApi", "{E478A4CB-FCFE-40C3-97C4-FB1BD390879C}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_56713"
+		Debug.AspNetCompiler.PhysicalPath = "C4PApi\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_56713\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_56713"
+		Release.AspNetCompiler.PhysicalPath = "C4PApi\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_56713\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "56713"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E478A4CB-FCFE-40C3-97C4-FB1BD390879C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E478A4CB-FCFE-40C3-97C4-FB1BD390879C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2E437FA4-8DA3-4A64-B7F6-A43B9BD5CD40}
+	EndGlobalSection
+EndGlobal
