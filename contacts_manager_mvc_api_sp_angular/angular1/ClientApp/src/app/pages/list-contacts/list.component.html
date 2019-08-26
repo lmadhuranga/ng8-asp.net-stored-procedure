@@ -1,6 +1,7 @@
 <div id="contact-list" class="contacts-list">
   <p *ngIf="!contacts"><em>Loading...</em></p>
-
+  <h1>Concat List</h1>
+  <a class="createbtn" [routerLink]="[ '/add' ]"> <i class="fas fa-plus"></i> New Contact</a> |
   <table class='table' *ngIf="contacts">
     <thead>
       <tr>
